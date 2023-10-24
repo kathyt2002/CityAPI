@@ -124,7 +124,6 @@ namespace TestCityWebAPI
             // Check that the result is not null and that it returns an HTTP status code of 500 (Internal Server Error) due to the simulated error.
             Assert.Equal("Simulated error", exception.Message);
 
-
         }
     }
 }
